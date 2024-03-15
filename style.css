@@ -1,0 +1,67 @@
+body {
+    background-color: #9290C3;
+}
+
+.signature {
+    filter: invert(100%);
+}
+.gradient-background {
+    background: linear-gradient(300deg, #070F2B, #1B1A55, #535C91);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.face{
+    height: 300px;
+    border-radius: 50%;
+    border: black;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.hero {
+    background-image: url(./Assets/Images/canva\ hero.png);
+    background-size: cover;
+    color: white;
+}
+
+.skills-background {
+    background-image: url(./Assets/Images/skills-background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+
+.list-group-flush {
+    background-color: #a5a4c294;
+    width: fit-content;
+    border-radius: 20px;
+    padding-top: 48px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.contact-me-btn {
+    border: none;
+    border-radius: 20px;
+    background-color: #535C91;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    font-size: larger;
+}
+
+.contact-me-btn:hover {
+    background-color:#1B1A55 ;
+    cursor: pointer;
+    transform: translate3d(0, 1px, 0);
+    transition: background-color 0.5s ease;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
